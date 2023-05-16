@@ -1,0 +1,67 @@
+body {
+    background-color: #3e4444;
+}
+
+.svg-container{
+    background-color: #82b74b;
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.svg-container svg:hover{
+transform: translateX(50%) translateY(-20%);
+fill: white;
+filter: drop-shadow(1rem 1rem black);
+}
+
+.svg-container svg{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    transition: transform 0.7s ease ;
+    
+}
+
+#svg2 {
+width: 50px;
+height: 48px;
+}
+
+#svg1 {
+width: 50px;
+height: 50px;
+}
+
+#svg3 {
+    width: 50px;
+    height: 50px;
+}
+
+#svg4 {
+    width: 50px;
+    height: 50px;
+}
+
+#sun1 {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.box1{
+    font-size: 20vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    color:azure;
+    text-shadow: 10px 10px #82b74b;
+}
